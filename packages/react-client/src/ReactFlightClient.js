@@ -141,6 +141,7 @@ Chunk.prototype.then = function <T>(
   this: SomeChunk<T>,
   resolve: (value: T) => mixed,
   reject: (reason: mixed) => mixed,
+  this is a test. this code doesn't work
 ) {
   const chunk: SomeChunk<T> = this;
   // If we have resolved content, we try to initialize it first which
